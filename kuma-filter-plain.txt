@@ -1,0 +1,12 @@
+NOT DestinationHostName endswith '.yourdomain.local'
+AND NOT DestinationHostName = ''
+AND NOT DestinationHostName endswith [
+'in-addr.arpa',
+'ip6.arpa',
+'yandex.ru',
+'ya.ru',
+'vk.ru',
+'aliexpress.com',
+'addblock.com',
+'aliexpress.ru'
+]
